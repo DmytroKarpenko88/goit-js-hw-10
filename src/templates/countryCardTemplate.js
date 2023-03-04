@@ -11,7 +11,7 @@ export const countryCardTemplate = ({
        ${name}
       </p>
       <p class="country-info__field">
-        <b class="country-info__field-title">capital:</b> ${capital.join(', ')}
+        <b class="country-info__field-title">Capital:</b> ${capital.join(', ')}
       </p>
       <p class="country-info__field">
         <b class="country-info__field-title">Population:</b> ${population}
