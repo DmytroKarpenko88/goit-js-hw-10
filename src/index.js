@@ -55,8 +55,6 @@ function renderList(countries) {
 }
 
 function renderCard(country) {
-  const { name, flags, population, capital, languages } = country;
-
   refs.countryInfo.innerHTML = countryCardTemplate(country);
 }
 
